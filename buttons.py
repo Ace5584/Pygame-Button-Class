@@ -9,7 +9,7 @@ class button():
         self.height = height
         self.color = color
         self.text = text
-        self.font = pygame.font.SysFont('comicsans', text_size, True)
+        self.font = pygame.font.SysFont('arial', text_size, True)
         self.image = image
 
     def draw(self, win, draw_rect):
